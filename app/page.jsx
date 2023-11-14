@@ -35,12 +35,12 @@ export default function Home() {
         </section><br />
         <section>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-3 h-fit w-full  bg-white rounded-md bg-opacity-30 bg-white p-5 rounded-md shadow-lg p-5'>
-            <div>
+            <div className='h-fit'>
               <hgroup className='flex gap-x-3'>
                 <FaInfo />
                 <h1 className='underline'> Info</h1>
               </hgroup><br />
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-3 pl-3'>
                 <div className='flex gap-x-3 '>
                   <MdOutlineBedroomParent className='text-4xl md:text-5xl' />
                   <div>
@@ -74,18 +74,71 @@ export default function Home() {
             </div>
             <div>
               <hgroup className='flex gap-x-3'>
-                <FaSearchLocation />
-                <h1 className='underline'> Adresa</h1>
-              </hgroup><br />
-            </div>
-            <div>
-              <hgroup className='flex gap-x-3'>
                 <FaPhoneAlt />
                 <h1 className='underline'> Kontakt</h1>
               </hgroup><br />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt obcaecati sunt alias, maxime vitae impedit ipsum, expedita omnis porro excepturi id quia molestias facilis iure, incidunt maiores quasi!
-              </p>
+              <div className='pl-3'>
+    
+              <div className="container">
+        <div className="card">
+            <a className="login">Plotesoni Formen</a>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-3'>
+
+            <div className="inputBox">
+                <input type="text" required="required"/>
+                <span className="user">Emri</span>
             </div>
+
+            <div className="inputBox">
+                <input type="text" required="required"/>
+                <span>Mbiemri</span>
+            </div>
+            <div className="inputBox">
+                <input type="email" required="required"/>
+                <span>E-mail</span>
+            </div>
+            <div className="inputBox">
+                <input type="text" required="required"/>
+                <span>Tel</span>
+            </div>
+            </div>
+
+            <button className="enter">Dergo</button>
+
+        </div>
+    </div>
+              {/* <form className=''>
+                <label htmlFor="name">Emri:</label><br />
+                <input type="text" name="name" id="name" placeholder='Emri...'/><br />
+                <label htmlFor="lastname">Mbiemri:</label><br />
+                <input type="text" name="lastname" id="lastname" placeholder='Mbiemri...'/><br />
+                <label htmlFor="email">E-mail:</label><br />
+                <input type="email" name="email" id="email" placeholder='E-mail...'/><br />
+                <label htmlFor="number">Tel:</label><br />
+                <input type="number" name="number" id="number" placeholder='Numri...' /><br />
+                <button type="submit">Dergo</button>
+              </form> */}
+              </div>
+            </div>
+            <div>
+              <hgroup className='flex gap-x-3'>
+                <FaSearchLocation />
+                <h1 className='underline'> Adresa</h1>
+              </hgroup><br />
+              <div className='pl-3'>
+
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.243038400884!2d19.809122085571275!3d41.32532820044899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031fb35995b7d%3A0xa642076c7a94ef9d!2sMy%20Gym!5e0!3m2!1sen!2s!4v1699961567097!5m2!1sen!2s" 
+              width="500" 
+              height="350" 
+              className='border-solid rounded-md  w-fit md:w-[500px]' 
+              allowfullscreen=""
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+              </div>
+            </div>
+           
           </div>
         </section>
       </main>
