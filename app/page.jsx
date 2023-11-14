@@ -81,7 +81,7 @@ export default function Home() {
     
               <div className="container">
         <div className="card">
-            <a className="login">Plotesoni Formen</a>
+            <a className="login">Ploteso</a>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-3'>
 
             <div className="inputBox">
