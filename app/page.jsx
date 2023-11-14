@@ -43,28 +43,28 @@ export default function Home() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-3 '>
                 <div className='flex gap-x-3 '>
                   <MdOutlineBedroomParent className='text-4xl md:text-5xl' />
-                  <div>
+                  <div className='flex md:flex-col'>
                     <h3>Dhoma gjumi:</h3>
                     <p className=''>2</p>
                   </div>
                 </div>
                 <div className='flex gap-x-3 '>
                   <TbHome className='text-4xl md:text-5xl' />
-                  <div>
+                  <div className='flex md:flex-col'>
                     <h3>Sip. totale:</h3>
                     <p className=''>140m2</p>
                   </div>
                 </div>
                 <div className='flex gap-x-3 '>
                   <TbHome className='text-4xl md:text-5xl' />
-                  <div>
-                    <h3>Sip. brendeshme:</h3>
+                  <div className='flex md:flex-col'>
+                    <h3>Sip. brendeshme: {' '}</h3>
                     <p className=''>100m2</p>
                   </div>
                 </div>
                 <div className='flex gap-x-3 '>
                   <GrDocument className='text-4xl md:text-5xl' />
-                  <div>
+                  <div className='flex md:flex-col'>
                     <h3>Doc:</h3>
                     <p className=''> Hipotekuar</p>
                   </div>
