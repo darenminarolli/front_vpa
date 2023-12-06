@@ -14,7 +14,7 @@ body {
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track */
@@ -56,12 +56,6 @@ body {
   border-radius: 8px;
 }
 
-.adress{
-  background: #e3e3e3;
-  box-shadow: 10px 10px 22px #c8c8c8,
-  -10px -10px 22px #c5c4c4;
-border-radius: 8px;
-}
 .inputBox {
   position: relative;
   width: 100%;
@@ -134,3 +128,9 @@ border-radius: 8px;
   color: white;
 }
 
+.adress{
+  background: #e3e3e3;
+  box-shadow: 10px 10px 22px #c8c8c8,
+  -10px -10px 22px #c5c4c4;
+border-radius: 8px;
+}

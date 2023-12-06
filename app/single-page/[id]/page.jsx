@@ -4,6 +4,8 @@ import SinglePageDescription from '@/app/components/SinglePageDescription';
 import Info from '@/app/components/Info';
 import Adress from '@/app/components/Adress';
 import Contact from '@/app/components/Contact';
+import SimilarProperties from '@/app/components/SimilarProperties';
+
 
 const SinglePage = () => {
 
@@ -26,10 +28,11 @@ const SinglePage = () => {
         <SinglePageDescription />
       </section><br />
       <section>
-        <div className='grid md:grid-cols-2 grid-cols-1 gap-3 h-fit w-full  bg-white rounded-md bg-opacity-30 bg-white p-5 rounded-md shadow-lg p-5'>
+        <div className='grid  md:grid-cols-2 grid-cols-1 gap-3 h-fit w-full  bg-white rounded-md bg-opacity-30 bg-white p-5 rounded-md shadow-lg p-5'>
           <Info />
           <Adress />
           <Contact />
+          <SimilarProperties/>
         </div>
       </section>
 
