@@ -1,4 +1,5 @@
 import { FaPhoneAlt } from 'react-icons/fa';
+import Button from './ui/Button';
 const Contact = () => {
     return (
         <>
@@ -28,7 +29,7 @@ const Contact = () => {
                                 <span>Tel</span>
                             </div>
                         </div>
-                        <button className="enter">Dergo</button>
+                       <Button name='Dergo'/>
                     </div>
                 </div>
             </div>
