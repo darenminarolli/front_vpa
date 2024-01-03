@@ -3,7 +3,7 @@ import React from 'react'
 const layout = (props) => {
   return (
    <>
-   <main className='w-full flex flex-col p-5 mt-2 h-fit'>
+   <main className='w-[1250px] m-auto flex flex-col p-5 mt-2 h-fit'>
       {props.children}
    </main>
    </>
